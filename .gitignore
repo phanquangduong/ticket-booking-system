@@ -39,3 +39,4 @@ build/
 
 ### Docker data ###
 environment/data/
+environment/grafana-storage/

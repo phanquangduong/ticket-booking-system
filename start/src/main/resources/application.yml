@@ -7,7 +7,7 @@ server:
 spring:
   # application
   application:
-    name: zzz.com
+    name: ticketbookingsystem.com
   #DBS
   datasource:
     hikari:
@@ -82,3 +82,6 @@ management:
       show-details: always
     prometheus:
       enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
