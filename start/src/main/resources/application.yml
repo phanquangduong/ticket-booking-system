@@ -8,6 +8,9 @@ spring:
   # application
   application:
     name: ticketbookingsystem.com
+  threads:
+    virtual:
+      enable: true
   #DBS
   datasource:
     hikari:
